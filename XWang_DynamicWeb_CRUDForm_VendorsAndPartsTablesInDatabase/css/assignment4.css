@@ -1,0 +1,84 @@
+body
+{
+	font-family: 'Kalam';
+	text-align: center;
+}
+.content {
+	background: whitesmoke;
+	max-width: 600px;
+	margin: auto;
+	padding: 35px;
+}
+ul {
+	font-size: 1.5em;
+	color: 21211f;
+}
+.formData{
+	width: 600px;
+	margin: auto;
+    background-color: #acf2e7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+table
+{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+td, th
+{
+	border: 1px solid #DDDDDD;
+	padding: 8px;
+}
+td.text
+{
+	text-align: left;
+}
+tr:nth-child(even)
+{
+	background-color: #DDDDDD;
+}
+label 
+{
+	margin-top: 10px;
+	width: 160px;
+	text-align: left;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+}
+input, select
+{
+	margin-top: 10px;
+	width: 200px;
+}
+#submit
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+#errors
+{
+    color: #ed4074;
+    font-family: 'Bilbo Swash Caps';
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+#formResult
+{
+    color: #21211f;
+    font-family: 'Bilbo Swash Caps';
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
