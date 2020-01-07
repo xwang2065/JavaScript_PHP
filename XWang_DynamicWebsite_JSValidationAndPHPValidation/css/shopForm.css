@@ -1,0 +1,47 @@
+body {
+    background-color: aqua
+}
+.formData{
+    background-color: whitesmoke;
+    max-width: 800px;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+table {
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+}
+table th, td {
+    width: 200px;
+    padding-bottom: 30px;
+    vertical-align: top;
+}
+table th {
+    text-align: left;
+}
+table td {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+
+form label {
+    width: 150px;
+}
+form input, select{
+    width: 150px;
+}
+#errorsOutput {
+    background-color: whitesmoke;
+    color: crimson;
+    font-size: 1em;
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+}
